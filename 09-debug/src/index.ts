@@ -1,4 +1,3 @@
+import { getBaseEmail } from "./services/email";
 
-export function sayHelloWorld(world: string) {
-  return `Hello ${world}`;
-}
+getBaseEmail("Kaynan")
